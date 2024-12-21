@@ -4,7 +4,7 @@ let evenCount = 0;
 let oddCount = 0;
 let zeroCount = 0;
 
-function func() {
+function getNum() {
   for (let i = 0; i < myArr.length; i++) {
     let element = myArr[i];
     if (typeof element == "number") {
@@ -26,4 +26,4 @@ function func() {
   console.log("Нулевые элементы: " + zeroCount);
 }
 
-func();
+getNum();
