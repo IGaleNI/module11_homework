@@ -1,10 +1,10 @@
 const myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, NaN, true, false, "1", "2", 0];
 
-let evenCount = 0;
-let oddCount = 0;
-let zeroCount = 0;
-
 function getNum() {
+  let evenCount = 0;
+  let oddCount = 0;
+  let zeroCount = 0;
+
   for (let i = 0; i < myArr.length; i++) {
     let element = myArr[i];
     if (typeof element == "number") {
